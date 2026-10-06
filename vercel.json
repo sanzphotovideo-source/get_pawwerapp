@@ -3,10 +3,29 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "builds": [
-    { "src": "api/meta-config.js", "use": "@vercel/node" },
-    { "src": "index.html", "use": "@vercel/static" },
-    { "src": "app.js", "use": "@vercel/static" },
-    { "src": "styles.css", "use": "@vercel/static" },
-    { "src": "pawwer-mark.png", "use": "@vercel/static" }
+    {
+      "src": "api/meta-config.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "app.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "styles.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "pawwer-mark.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "assets/pawwer-freelancer-post-es.jpg",
+      "use": "@vercel/static"
+    }
   ]
 }

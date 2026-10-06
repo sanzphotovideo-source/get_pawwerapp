@@ -28,6 +28,7 @@
       <a href="#questions">Questions</a>
     </nav>
     <div class="header-actions">
+      <button class="language-toggle" id="languageToggle" type="button" aria-label="Switch language">ES</button>
       <a class="login-link" href="https://crm.pawwerapp.com">Log in</a>
       <a class="button button-small button-dark js-trial" href="https://crm.pawwerapp.com/?plan=starter">Start your free trial</a>
       <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
@@ -50,16 +51,16 @@
         <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
         <div class="hero-spark spark-one">✳</div><div class="hero-spark spark-two">✳</div>
         <div class="workspace-card">
-          <div class="workspace-top"><div class="window-controls"><i></i><i></i><i></i></div><span>PAWWER workspace</span><div class="avatar-stack"><b>M</b><b>J</b></div></div>
+          <div class="workspace-top"><div class="window-controls"><i></i><i></i><i></i></div><span data-i18n="PAWWER workspace">PAWWER workspace</span><div class="avatar-stack"><b>M</b><b>J</b></div></div>
           <div class="workspace-body">
             <aside class="workspace-rail"><span class="rail-logo">p</span><span class="rail-icon active">▦</span><span class="rail-icon">♧</span><span class="rail-icon">◷</span><span class="rail-icon">✧</span></aside>
             <div class="workspace-main">
-              <div class="dash-heading"><div><span>MONDAY, OCTOBER 5</span><h3>Your leads</h3></div><button class="add-button" aria-hidden="true">+ Add lead</button></div>
-              <div class="dash-stats"><div><small>Needs a next step</small><strong>04 <i>+2 today</i></strong></div><div><small>Follow-ups due</small><strong>02 <i class="warm">Today</i></strong></div></div>
-              <div class="lead-row"><div class="lead-avatar orange">ML</div><div class="lead-details"><strong>Maya Lopez</strong><span>Website inquiry · 12 min ago</span></div><span class="lead-status status-new">New lead</span><span class="row-chevron">›</span></div>
-              <div class="lead-row"><div class="lead-avatar blue">JR</div><div class="lead-details"><strong>Jordan Reyes</strong><span>Instagram · Yesterday</span></div><span class="lead-status status-follow">Follow up</span><span class="row-chevron">›</span></div>
-              <div class="lead-row"><div class="lead-avatar green">AC</div><div class="lead-details"><strong>Alex Chen</strong><span>Referral · Yesterday</span></div><span class="lead-status status-ready">Meeting set</span><span class="row-chevron">›</span></div>
-              <div class="agent-note"><span class="agent-star">✳</span><div><strong>A helpful next step</strong><p>Maya asked about pricing. Reply today while the conversation is fresh.</p></div><button aria-hidden="true">Review</button></div>
+              <div class="dash-heading"><div><span data-i18n="MONDAY, OCTOBER 5">MONDAY, OCTOBER 5</span><h3 data-i18n="Your leads">Your leads</h3></div><button class="add-button" aria-hidden="true" data-i18n="+ Add lead">+ Add lead</button></div>
+              <div class="dash-stats"><div><small data-i18n="Needs a next step">Needs a next step</small><strong>04 <i data-i18n="+2 today">+2 today</i></strong></div><div><small data-i18n="Follow-ups due">Follow-ups due</small><strong>02 <i class="warm" data-i18n="Today">Today</i></strong></div></div>
+              <div class="lead-row"><div class="lead-avatar orange">ML</div><div class="lead-details"><strong>Maya Lopez</strong><span>Website inquiry · 12 min ago</span></div><span class="lead-status status-new" data-i18n="New lead">New lead</span><span class="row-chevron">›</span></div>
+              <div class="lead-row"><div class="lead-avatar blue">JR</div><div class="lead-details"><strong>Jordan Reyes</strong><span>Instagram · Yesterday</span></div><span class="lead-status status-follow" data-i18n="Follow up">Follow up</span><span class="row-chevron">›</span></div>
+              <div class="lead-row"><div class="lead-avatar green">AC</div><div class="lead-details"><strong>Alex Chen</strong><span>Referral · Yesterday</span></div><span class="lead-status status-ready" data-i18n="Meeting set">Meeting set</span><span class="row-chevron">›</span></div>
+              <div class="agent-note"><span class="agent-star">✳</span><div><strong data-i18n="A helpful next step">A helpful next step</strong><p data-i18n="Maya asked about pricing. Reply today while the conversation is fresh.">Maya asked about pricing. Reply today while the conversation is fresh.</p></div><button aria-hidden="true" data-i18n="Review">Review</button></div>
             </div>
           </div>
         </div>
@@ -69,6 +70,8 @@
     </section>
 
     <section class="signal-strip" aria-label="The PAWWER marketing method"><div class="wrap signal-inner"><span>Plan the strategy</span><b>→</b><span>Create the content</span><b>→</b><span>Manage campaigns</span><b>→</b><span>Follow up with leads</span></div></section>
+
+    <section class="proof-strip" aria-label="One workflow for your marketing"><div class="wrap proof-strip-inner"><span><i>✳</i> Strategy shaped by 25 years in marketing</span><span><i>▧</i> Content for the channels you use</span><span><i>◎</i> Leads with a clear next step</span><a href="#inside">See PAWWER in action <b>↗</b></a></div></section>
 
     <section id="how" class="section how-section wrap">
       <div class="section-heading"><p class="eyebrow">A method for the whole marketing cycle</p><h2>Go from a good idea<br>to a real follow-up.</h2><p>Put strategy, content, campaigns, and customer conversations in a rhythm your team can actually keep.</p></div>
@@ -96,15 +99,19 @@
     </section>
 
     <section id="inside" class="section agency-section wrap">
-      <div class="agency-copy"><p class="eyebrow">A content studio connected to your CRM</p><h2>From campaign idea to content your team can use.</h2><p>Build a content plan around a real business goal, prepare posts for your connected channels, and keep campaign conversations and leads in view.</p><a href="https://crm.pawwerapp.com/?plan=starter" class="subtle-link js-trial">Put the method to work <span>↗</span></a>
-        <div class="agency-services"><div><span class="service-glyph">✳</span><span><b>Strategy & content</b><small>Briefs, ideas, and review-ready drafts</small></span></div><div><span class="service-glyph">▤</span><span><b>Campaigns & planning</b><small>Coordinate work and see what needs attention</small></span></div><div><span class="service-glyph">◎</span><span><b>Leads & follow-up</b><small>Keep the customer journey moving</small></span></div></div>
-      </div>
-      <div class="agency-board" aria-label="Sample PAWWER content planning workspace">
-        <div class="agency-board-top"><div><span class="board-mark">p</span><span>PAWWER / Content studio</span></div><span class="board-status"><i></i> Campaign in progress</span></div>
-        <div class="agency-brief"><div><small>CAMPAIGN BRIEF</small><h3>Make the next move easier</h3><p>Help local business owners see how consistent follow-up can turn more inquiries into customers.</p></div><div class="brief-tags"><span>Goal · Lead generation</span><span>Audience · Local owners</span></div></div>
-        <div class="content-preview-heading"><b>Content plan</b><span>3 draft ideas <i>·</i> Ready to review</span></div>
-        <div class="content-preview-grid"><article class="content-tile tile-reel"><div class="creative-reel"><span>YOUR NEXT<br>LEAD IS HERE</span><i>▶</i></div><small><b>REEL</b><span>Instagram</span></small></article><article class="content-tile tile-post"><div class="creative-post"><span>GOOD FOLLOW-UP<br>STARTS WITH A<br><b>GOOD SYSTEM.</b></span><i>pawwer</i></div><small><b>POST</b><span>Instagram · Facebook</span></small></article><article class="content-tile tile-story"><div class="creative-story"><span>Keep every<br>conversation<br><b>moving.</b></span><i>↗</i></div><small><b>STORY</b><span>Instagram</span></small></article></div>
-        <div class="agency-board-bottom"><span>Plan <i>→</i> Create <i>→</i> Review <i>→</i> Publish</span><small>Connected channels stay under your control.</small></div>
+      <div class="agency-intro"><div><p class="eyebrow">One idea, ready for more than one channel</p><h2>Make the content.<br>Keep the whole picture.</h2><p>From the first campaign concept to the lead who responds, PAWWER helps your team move the work forward in one connected rhythm.</p></div><a href="https://crm.pawwerapp.com/?plan=starter" class="subtle-link js-trial">Explore PAWWER for yourself <span>↗</span></a></div>
+      <div class="showcase-shell">
+        <div class="showcase-tabs" role="tablist" aria-label="PAWWER product views"><button class="showcase-tab active" type="button" role="tab" aria-selected="true" data-showcase="content"><span>01</span> Create content</button><button class="showcase-tab" type="button" role="tab" aria-selected="false" data-showcase="journey"><span>02</span> Follow the lead</button><small>THE PAWWER WORKFLOW</small></div>
+        <article class="showcase-panel active" data-panel="content" role="tabpanel">
+          <div class="showcase-story"><p class="showcase-kicker"><i></i> A real PAWWER content concept</p><h3>Give every post a purpose.</h3><p>Start with a clear audience and a useful idea. Prepare the creative and caption, then review it before it goes out.</p><div class="showcase-meta"><span>Campaign</span><b>Freelancers · Finding the next client</b></div><div class="showcase-meta"><span>Channels</span><b class="channel-badges"><i>◎ Instagram</i><i>f Facebook</i></b></div><div class="showcase-steps"><span class="is-done">Brief</span><b></b><span class="is-done">Create</span><b></b><span class="is-current">Review</span><b></b><span>Schedule</span></div></div>
+          <div class="showcase-creative"><div class="creative-label"><span><b>PAWWER ORIGINAL</b><small>Social post · 1:1</small></span><span class="creative-lang" id="creativeLang">ES artwork</span></div><img src="/assets/pawwer-freelancer-post-es.jpg" alt="Original PAWWER campaign creative for freelancers, in Spanish"><div class="creative-caption"><div><span class="caption-avatar">p</span><b>pawwer</b><small>Instagram</small></div><p id="creativeCopy">Finding your next client shouldn’t take your entire afternoon. When you work for yourself, making content can eat into the time you need for clients.</p><span class="caption-hashtags">#PAWWER #Freelancers #SmallBusiness</span></div><div class="creative-approval"><span><i></i> Draft · ready for your review</span><button type="button" class="caption-toggle" data-caption-lang="en" aria-label="Show caption in English">EN</button><button type="button" class="caption-toggle active" data-caption-lang="es" aria-label="Mostrar el texto en español">ES</button></div></div>
+          <aside class="showcase-side-note"><span class="note-star">✳</span><b>Created for the person behind the business.</b><p>A real sample from PAWWER’s content studio, paired with a review-first workflow.</p><a href="https://crm.pawwerapp.com/?plan=starter" class="js-trial">Make your first draft <span>↗</span></a></aside>
+        </article>
+        <article class="showcase-panel journey-panel" data-panel="journey" role="tabpanel" hidden>
+          <div class="showcase-story"><p class="showcase-kicker"><i></i> The work doesn’t stop at the post</p><h3>Bring the conversation home.</h3><p>When a campaign earns a reply, keep the source, the context, and the follow-up visible to the team.</p><div class="journey-flow"><span>Campaign</span><b>→</b><span>New lead</span><b>→</b><span>Next step</span></div><div class="followup-note"><i>✳</i><span><b>Next step to review</b><small>Reply with available consultation times.</small></span></div><a class="button button-primary js-trial" href="https://crm.pawwerapp.com/?plan=starter">See it in your workspace <span>↗</span></a></div>
+          <div class="journey-visual"><div class="journey-window"><div class="journey-window-top"><span><i></i><i></i><i></i></span><b>PAWWER · LEADS</b><small>Sample workspace</small></div><div class="journey-content"><div class="journey-heading"><span>YOUR PIPELINE</span><b>+ New lead</b></div><div class="journey-stats"><div><small>Needs a next step</small><b>04 <i>+2 today</i></b></div><div><small>Follow-ups due</small><b>02 <i>Today</i></b></div></div><div class="journey-lead journey-highlight"><span class="journey-avatar orange">ML</span><span><b>Maya Lopez</b><small>Website inquiry · 12 min ago</small></span><em>New</em><i>›</i></div><div class="journey-lead"><span class="journey-avatar blue">JR</span><span><b>Jordan Reyes</b><small>Instagram · Yesterday</small></span><em class="follow-tag">Follow up</em><i>›</i></div><div class="journey-lead"><span class="journey-avatar green">AC</span><span><b>Alex Chen</b><small>Referral · Yesterday</small></span><em class="meeting-tag">Meeting set</em><i>›</i></div><div class="journey-agent"><i>✳</i><span><b>A helpful next step</b><small>Maya asked about pricing. Reply while the conversation is fresh.</small></span><button>Review</button></div></div></div><div class="journey-float"><span>✓</span><b>Campaign context stays with the lead.</b></div></div>
+          <aside class="showcase-side-note"><span class="note-star">◎</span><b>Every inquiry gets somewhere to go.</b><p>Sample CRM data illustrates the flow. Your actual workspace starts with your business.</p><a href="https://crm.pawwerapp.com/?plan=starter" class="js-trial">Start your free trial <span>↗</span></a></aside>
+        </article>
       </div>
     </section>
 
