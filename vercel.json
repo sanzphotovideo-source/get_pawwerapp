@@ -4,6 +4,17 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "getpaweer.app"
+        }
+      ],
+      "destination": "https://www.pawwerapp.com/#contenido",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {
