@@ -26,6 +26,8 @@
     {
       "src": "assets/pawwer-freelancer-post-es.jpg",
       "use": "@vercel/static"
-    }
+    },
+    { "src": "assets/foto-*.jpg", "use": "@vercel/static" },
+    { "src": "assets/*.png", "use": "@vercel/static" }
   ]
 }
