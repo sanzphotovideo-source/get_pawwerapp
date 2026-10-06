@@ -2,6 +2,19 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "getpaweer.app"
+        }
+      ],
+      "destination": "https://www.pawwerapp.com/#contenido",
+      "permanent": true
+    }
+  ],
   "builds": [
     {
       "src": "api/meta-config.js",
